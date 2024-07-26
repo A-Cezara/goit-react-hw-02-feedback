@@ -22,7 +22,7 @@ class Counter extends Component {
   }
 
   render() {
-    const { step } = this.props;
+
 
     return (
       <div>

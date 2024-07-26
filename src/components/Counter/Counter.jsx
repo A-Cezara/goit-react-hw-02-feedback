@@ -43,7 +43,7 @@ class Counter extends Component {
   }
 }
 
-// Adding PropTypes validation
+
 Counter.propTypes = {
   step: PropTypes.number.isRequired,
 };

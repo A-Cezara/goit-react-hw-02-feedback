@@ -1,16 +1,15 @@
-export const App = () => {
+import React from 'react';
+import Counter from './Counter/Counter'; 
+
+
+
+function App() {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div>
+      <h1>Please leave feedback</h1>
+      <Counter step={1} />
     </div>
   );
-};
+}
+
+export default App;

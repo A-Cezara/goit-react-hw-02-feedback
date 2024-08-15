@@ -1,14 +1,20 @@
-.button {
-    margin: 5px;
-    padding: 5px 10px;
-    font-size: 14px;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    background-color: #f0f0f0;
-    transition: background-color 0.3s ease;
-  }
-  
-  .button:hover {
-    background-color: #ddd;
-  }
+.feedbackButtons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.feedbackButton {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.feedbackButton:hover {
+  background-color: #45a049;
+}
